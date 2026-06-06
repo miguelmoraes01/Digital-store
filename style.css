@@ -2,26 +2,100 @@
     margin: 0;
     color: #000;
     text-decoration: none;
+    font-family:sans-serif;
 }
 
 header {
-    height: 64px;
+
+    height: 60px;
     display: flex;
-    justify-content: cenrter;
+    justify-content: center;
+    align-items: center;
+
 
     a {
         width: 174px;
         display: flex;
         justify-content: center;
-        align-items: center;
         gap: 4.36px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        
-        span {
-            font-size: 19,85px;
+        span{
+            font-size: 19.85px;
             font-weight: 600;
-            color: #c92071;
+            color: #C92071;
         }
     }
+}
 
+main {
+    background: linear-gradient(#EFEFFF, #B5B6F2);
+    padding: 63px 30px 80px;
+
+    form {
+    background-color: #FFF;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 4px;
+
+        .title {
+          h1 {
+
+            font-size: 22px;
+            line-height: 34px;
+            letter-spacing: 2px;
+            text-align: center;
+            color: #1f1f1f;
+
+         }
+
+            p {
+
+                font-size: 14px;
+                line-height: 24px;
+                letter-spacing: .25px;
+                color: #474747;
+                text-align: center;
+
+                a {
+                    text-decoration: underline;
+                    color: #474747;
+                }
+
+            }
+
+         }
+
+         .inputs {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+                label {
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: .75px;
+                    color: #474747;
+                }
+
+                input {
+                    border: none;
+                    border-radius: 8px;
+                    background-color: #4747470a;
+                    font-size: 16px;
+                    padding: 16px 13px;
+                    line-height: 28px;
+                    
+                }
+            }
+
+         }
+
+     }
 }
