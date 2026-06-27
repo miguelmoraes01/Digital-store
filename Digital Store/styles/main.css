@@ -128,4 +128,9 @@ main {
             }
         }
      }
+
+     .banner {
+        display: none;
+        
+     }
 }
